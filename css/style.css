@@ -1,0 +1,27 @@
+nav {
+width: 330px;
+}
+
+i, .mealCard {
+    cursor: pointer;
+}
+
+.overlay {
+    position: absolute;
+    top: 150%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all .5s;
+}
+
+.mealCard:hover .overlay {
+    top:0;
+}
+
+.recipes{
+    color: #055160;
+    background-color: #CFF4FC;
+    
+    
+}
